@@ -3,18 +3,21 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "homepage": "https://LukasSebastiao.github.io/comp2156",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "echo \"Error: no test specified\"",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/LukasSebastiao/comp2156.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Lukas Sebastiao",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/LukasSebastiao/comp2156/issues"
